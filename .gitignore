@@ -1,0 +1,40 @@
+# Build artifacts
+bin/
+gen/
+out/
+build/
+.gradle/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.settings/
+.classpath
+
+# Local configuration
+local.properties
+.DS_Store
+
+# Android Studio / IntelliJ files
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+captures/
+.externalNativeBuild
+.cxx/
+
+# Firebase / Sensitive data
+# google-services.json # Uncomment this if you want to hide your Firebase config
+
+# Keystores
+*.jks
+*.keystore
+
+# Log files
+*.log
