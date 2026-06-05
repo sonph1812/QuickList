@@ -120,7 +120,7 @@ fun NoteScreen(viewModel: NoteViewModel = viewModel()) {
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Icon(
-                            imageVector = Icons.Default.EventNote,
+                            imageVector = Icons.Default.Checklist,
                             contentDescription = null,
                             modifier = Modifier.size(80.dp),
                             tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)

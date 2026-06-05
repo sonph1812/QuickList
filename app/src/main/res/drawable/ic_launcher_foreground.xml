@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
@@ -6,28 +7,34 @@
     <group
         android:translateX="14"
         android:translateY="14">
-        <!-- Book Shape -->
+        <!-- Outer Circle -->
         <path
-            android:fillColor="#ECEFF1"
-            android:pathData="M10,10 L70,10 C73,10 75,12 75,15 L75,65 C75,68 73,70 70,70 L10,70 C7,70 5,68 5,65 L5,15 C5,12 7,10 10,10 Z" />
-        <path
-            android:fillColor="#CFD8DC"
-            android:pathData="M40,10 L40,70 L42,70 L42,10 Z" />
-        <path
-            android:fillColor="#90A4AE"
-            android:pathData="M15,25 L30,25 M15,35 L30,35 M15,45 L30,45 M50,25 L65,25 M50,35 L65,35 M50,45 L65,45"
-            android:strokeWidth="2"
-            android:strokeColor="#90A4AE" />
+            android:fillColor="#00000000"
+            android:pathData="M40,10 C56.57,10 70,23.43 70,40 C70,56.57 56.57,70 40,70 C23.43,70 10,56.57 10,40 C10,23.43 23.43,10 40,10 Z"
+            android:strokeWidth="5"
+            android:strokeColor="#FFFFFF" />
 
-        <!-- Pen Shape -->
+        <!-- Checkmark -->
         <path
-            android:fillColor="#FFD54F"
-            android:pathData="M65,5 L75,15 L35,55 L25,55 L25,45 Z" />
+            android:fillColor="#00000000"
+            android:pathData="M25,42 L35,52 L55,28"
+            android:strokeWidth="8"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Floating Dots/Particles -->
         <path
-            android:fillColor="#455A64"
-            android:pathData="M25,55 L25,50 L30,55 Z" />
+            android:fillColor="#FFFFFF"
+            android:pathData="M60,45 A2,2 0 1 1 56,45 A2,2 0 1 1 60,45 Z" />
         <path
-            android:fillColor="#E57373"
-            android:pathData="M70,10 L75,15 L78,12 L73,7 Z" />
+            android:fillColor="#FFFFFF"
+            android:pathData="M68,38 A3,3 0 1 1 62,38 A3,3 0 1 1 68,38 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M65,55 A2.5,2.5 0 1 1 60,55 A2.5,2.5 0 1 1 65,55 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M55,60 A1.5,1.5 0 1 1 52,60 A1.5,1.5 0 1 1 55,60 Z" />
     </group>
 </vector>
