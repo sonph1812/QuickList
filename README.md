@@ -1,44 +1,36 @@
-# QuickList App 📝
+# QuickList 📝
 
-A modern, clean, and lightweight Android Note-taking application built with Jetpack Compose and Room Database.
+**App Package:** `com.example.take_note_app_2`
 
-## Features ✨
+## Short Description
+A clean and efficient note-taking app with smart tagging, real-time search, and intuitive checklist features.
 
-- **Clean UI**: Modern Material 3 design with a focus on readability and ease of use.
-- **Smart Organization**: Add tags to your notes and filter them instantly using the Tag Bar.
-- **Search**: Fast real-time search to find your notes by title or content.
-- **Customization**: Color-code your notes to visually distinguish between categories.
-- **Checklist Mode**: Toggle checklist mode for tasks and shopping lists.
-- **Editing**: Seamlessly edit existing notes or delete those you no longer need.
-- **Safety First**: Confirmation dialogs for deletions and toast notifications for success actions.
-- **User Friendly**: Intuitive "Empty State" with guidance for new users.
+## Long Description
+QuickList is a modern, lightweight Android application designed for rapid note-taking and effortless organization. Built from the ground up using Jetpack Compose and Room Database, QuickList offers a fluid and responsive user experience. 
 
-## Tech Stack 🛠️
+Key features include:
+- **Smart Tagging**: Categorize your thoughts with tags and filter your list instantly with the built-in tag bar.
+- **Dynamic Search**: Find exactly what you need with real-time search across titles and content.
+- **Checklist Mode**: Seamlessly switch any note into a checklist for tasks, shopping, or to-dos.
+- **Visual Organization**: Personalize your notes with a variety of colors to categorize and prioritize at a glance.
+- **Safe Management**: Includes confirmation dialogs for deletions and snackbar notifications for successful actions.
+- **Modern UI/UX**: Features a beautiful Material 3 design with an intuitive "Empty State" guide for new users.
 
-- **Language**: [Kotlin](https://kotlinlang.org/)
-- **UI Framework**: [Jetpack Compose](https://developer.android.com/jetpack/compose)
-- **Database**: [Room Database](https://developer.android.com/training/data-storage/room)
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Dependency Management**: Gradle Version Catalog (libs.versions.toml)
+QuickList keeps your ideas organized and your productivity high, all within a beautiful, purple-themed interface.
+
+---
+
+## Technical Stack 🛠️
+
+- **Language**: Kotlin
+- **UI Framework**: Jetpack Compose
+- **Database**: Room (Local Storage)
+- **Architecture**: MVVM
+- **Navigation**: Clean, single-screen experience with dynamic dialogs.
 
 ## Getting Started 🚀
 
-### Prerequisites
-- Android Studio Ladybug or newer.
-- Android SDK 24 or higher.
-
-### Installation
-1. Clone the repository.
-2. Open the project in Android Studio.
-3. Sync Project with Gradle Files.
-4. Run the app on an Emulator or Physical Device.
-
-## Screenshots 📱
-
-*(Include your app screenshots here to make it more appealing on GitHub)*
-
-## Contribution 🤝
-Feel free to fork this project and submit pull requests for any features or bug fixes.
+Check out [QUICK_START.md](QUICK_START.md) for installation and setup instructions.
 
 ---
-Developed with ❤️ for Android Developers.
+Developed with ❤️ by sonph1812.
