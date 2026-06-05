@@ -1,40 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <group
-        android:translateX="14"
-        android:translateY="14">
-        <!-- Outer Circle -->
-        <path
-            android:fillColor="#00000000"
-            android:pathData="M40,10 C56.57,10 70,23.43 70,40 C70,56.57 56.57,70 40,70 C23.43,70 10,56.57 10,40 C10,23.43 23.43,10 40,10 Z"
-            android:strokeWidth="5"
-            android:strokeColor="#FFFFFF" />
-
-        <!-- Checkmark -->
-        <path
-            android:fillColor="#00000000"
-            android:pathData="M25,42 L35,52 L55,28"
-            android:strokeWidth="8"
-            android:strokeColor="#FFFFFF"
-            android:strokeLineCap="round"
-            android:strokeLineJoin="round" />
-
-        <!-- Floating Dots/Particles -->
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M60,45 A2,2 0 1 1 56,45 A2,2 0 1 1 60,45 Z" />
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M68,38 A3,3 0 1 1 62,38 A3,3 0 1 1 68,38 Z" />
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M65,55 A2.5,2.5 0 1 1 60,55 A2.5,2.5 0 1 1 65,55 Z" />
-        <path
-            android:fillColor="#FFFFFF"
-            android:pathData="M55,60 A1.5,1.5 0 1 1 52,60 A1.5,1.5 0 1 1 55,60 Z" />
-    </group>
-</vector>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_launcher_foreground_image"
+    android:inset="18dp" />
