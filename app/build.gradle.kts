@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.take_note_app_2"
+    namespace = "com.thanglong.quicklist"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.take_note_app_2"
+        applicationId = "com.thanglong.quicklist"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

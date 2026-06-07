@@ -1,4 +1,4 @@
-package com.example.take_note_app_2.data
+package com.thanglong.quicklist.data
 
 import kotlinx.coroutines.flow.Flow
 

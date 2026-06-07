@@ -1,11 +1,11 @@
-package com.example.take_note_app_2
+package com.thanglong.quicklist
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.take_note_app_2.data.Note
-import com.example.take_note_app_2.data.NoteDatabase
-import com.example.take_note_app_2.data.NoteRepository
+import com.thanglong.quicklist.data.Note
+import com.thanglong.quicklist.data.NoteDatabase
+import com.thanglong.quicklist.data.NoteRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow

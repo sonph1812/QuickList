@@ -1,4 +1,4 @@
-package com.example.take_note_app_2
+package com.thanglong.quicklist
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
@@ -27,7 +27,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.take_note_app_2.data.Note
+import com.thanglong.quicklist.data.Note
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)

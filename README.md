@@ -1,6 +1,6 @@
 # QuickList 📝
 
-**App Package:** `com.example.take_note_app_2`
+**App Package:** `com.thanglong.quicklist`
 
 ## Short Description
 A clean and efficient note-taking app with smart tagging, real-time search, and intuitive checklist features.

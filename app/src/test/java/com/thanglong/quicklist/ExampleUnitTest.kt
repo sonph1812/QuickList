@@ -1,4 +1,4 @@
-package com.example.take_note_app_2
+package com.thanglong.quicklist
 
 import org.junit.Test
 

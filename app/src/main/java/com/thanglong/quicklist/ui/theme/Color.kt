@@ -1,4 +1,4 @@
-package com.example.take_note_app_2.ui.theme
+package com.thanglong.quicklist.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
